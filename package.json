@@ -1,5 +1,10 @@
 {
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
   "dependencies": {
+    "lodash": "^4.17.15",
     "mobx": "^5.13.0",
     "react": "^16.8.6"
   },
@@ -11,6 +16,16 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1",
-    "eslint-plugin-standard": "^4.0.0"
-  }
+    "eslint-plugin-standard": "^4.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokemon list",
+  "main": "index.js",
+  "repository": "git@github.com:BerekHalfhand/pokedex.git",
+  "author": "Moorindal <moorindal@ymail.com>",
+  "license": "MIT"
 }
